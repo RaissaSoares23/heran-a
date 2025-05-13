@@ -16,10 +16,10 @@ class Cachorro (Animal):
     def __init__(self, nome,cor):
         super().__init__(nome,cor)
     def latir(self):
-        print(f'O {self.nome} foi latindo...')
+        print(f'O {self.nome} está latindo...')
 
 class Vaca(Animal):
     def __init__(self,nome,cor):
         super().__init__(nome,cor)
-    def Muu (self):
-        print(f'O {self.nome} foi muu')
+    def Mugir (self):
+        print(f'O {self.nome} está mugindo')

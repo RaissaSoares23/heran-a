@@ -11,3 +11,9 @@ class Gato (Animal):
         super().__init__(nome,cor)
     def miar(self):
         print (f'O {self.nome} foi miando...')
+
+class Cachorro (Animal):
+    def __init__(self, nome,cor):
+        super().__init__(nome,cor)
+    def latir(self):
+        print(f'O {self.nome} foi latindo...')

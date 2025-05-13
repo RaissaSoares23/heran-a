@@ -23,3 +23,23 @@ class Vaca(Animal):
         super().__init__(nome,cor)
     def Mugir (self):
         print(f'O {self.nome} está mugindo')
+
+class Forma():
+    def __init__(self):
+        self.area = 0
+        self.perimetro = 0
+
+class Retangulo(Forma):
+    def __init__(self):
+        super().__init__()
+    def calculaArea (self,base,altura):
+        self.area=base*altura
+        print(f"A area do retangulo é {self.area}")
+    def calculaPeriometro(self,base,altura):
+        self.perimmetro=(base*altura)*2
+        print(f"O perimetro do retangulo é {self.perimetro}")
+
+
+#class Triangulo():
+  #  def calculaArea(self):
+  #  def calculaPeriometro(self):
